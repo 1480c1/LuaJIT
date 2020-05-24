@@ -70,6 +70,7 @@
 #include "lj_trace.c"
 #include "lj_gdbjit.c"
 #include "lj_alloc.c"
+#include "lj_fs_io.c"
 
 #include "lib_aux.c"
 #include "lib_base.c"

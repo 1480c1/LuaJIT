@@ -22,6 +22,7 @@
 #include "lj_buf.h"
 #include "lj_str.h"
 #include "lj_lib.h"
+#include "lj_fs_io_replace.h"
 
 #if LJ_TARGET_POSIX
 #include <unistd.h>

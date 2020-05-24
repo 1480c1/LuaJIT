@@ -22,6 +22,7 @@
 #include "lj_lex.h"
 #include "lj_bcdump.h"
 #include "lj_parse.h"
+#include "lj_fs_io_replace.h"
 
 /* -- Load Lua source code and bytecode ----------------------------------- */
 

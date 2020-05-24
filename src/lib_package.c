@@ -16,6 +16,7 @@
 #include "lj_obj.h"
 #include "lj_err.h"
 #include "lj_lib.h"
+#include "lj_fs_io_replace.h"
 
 /* ------------------------------------------------------------------------ */
 

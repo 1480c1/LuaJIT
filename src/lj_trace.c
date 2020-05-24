@@ -30,6 +30,7 @@
 #include "lj_vm.h"
 #include "lj_vmevent.h"
 #include "lj_target.h"
+#include "lj_fs_io_replace.h"
 
 /* -- Error handling ------------------------------------------------------ */
 

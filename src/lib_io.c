@@ -25,6 +25,7 @@
 #include "lj_strfmt.h"
 #include "lj_ff.h"
 #include "lj_lib.h"
+#include "lj_fs_io_replace.h"
 
 /* Userdata payload for I/O file. */
 typedef struct IOFileUD {

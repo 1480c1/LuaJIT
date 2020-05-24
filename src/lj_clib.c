@@ -17,6 +17,7 @@
 #include "lj_cdata.h"
 #include "lj_clib.h"
 #include "lj_strfmt.h"
+#include "lj_fs_io_replace.h"
 
 /* -- OS-specific functions ----------------------------------------------- */
 

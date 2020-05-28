@@ -10,27 +10,27 @@
 #define dev_t lin_dev_t
 #define ino_t lin_ino_t
 
-#define open(...) lin_open(__VA_ARGS__)
-#define creat(...) lin_creat(__VA_ARGS__)
-#define fopen(...) lin_fopen(__VA_ARGS__)
-#define opendir(...) lin_opendir(__VA_ARGS__)
-#define readdir(...) lin_readdir(__VA_ARGS__)
-#define closedir(...) lin_closedir(__VA_ARGS__)
-#define mkdir(...) lin_mkdir(__VA_ARGS__)
-#define getcwd(...) lin_getcwd(__VA_ARGS__)
-#define getenv(...) lin_getenv(__VA_ARGS__)
+#define open(...) lin_open(...)
+#define creat(...) lin_creat(...)
+#define fopen(...) lin_fopen(...)
+#define opendir(...) lin_opendir(...)
+#define readdir(...) lin_readdir(...)
+#define closedir(...) lin_closedir(...)
+#define mkdir(...) lin_mkdir(...)
+#define getcwd(...) lin_getcwd(...)
+#define getenv(...) lin_getenv(...)
 
 #undef lseek
-#define lseek(...) lin_lseek(__VA_ARGS__)
+#define lseek(...) lin_lseek(...)
 
 // Affects both "stat()" and "struct stat".
 #undef stat
 #define stat lin_stat
 
 #undef fstat
-#define fstat(...) lin_fstat(__VA_ARGS__)
+#define fstat(...) lin_fstat(...)
 
-#define utime(...) _utime(__VA_ARGS__)
+#define utime(...) _utime(...)
 #define utimbuf _utimbuf
 
 #ifndef O_BINARY
